@@ -4,6 +4,12 @@ def listplus_1(A):
 
     return A 
 
+def pythonic(xs):
+    ys = []
+    for x in xs:
+        ys.append(x + 1)
+    return ys
+
 makeA = input().split()
 makeA = list(map(int, makeA))
 
