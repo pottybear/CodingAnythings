@@ -1,6 +1,6 @@
 def listplus_1(A): 
-    for _ in range(len(A)):
-        A[_] = A[_] + 1
+    for i in range(len(A)):
+        A[i] = A[i] + 1
 
     return A 
 
