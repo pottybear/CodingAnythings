@@ -10,6 +10,9 @@ def pythonic(xs):
         ys.append(x + 1)
     return ys
 
+def list_comp(xs):
+    return [x + 1 for x in xs]
+
 makeA = input().split()
 makeA = list(map(int, makeA))
 
